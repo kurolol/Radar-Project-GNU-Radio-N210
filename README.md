@@ -61,8 +61,7 @@ USRP Parameters for Testing
 | Parameter       | Value  |
 |---------------|--------|
 | **TX & RX Freq.** | 2.4 GHz |
-| **Bandwidth** | 1 MHz or 200 kHz |
-| **Sampling Rate** | 1 MHz |
+| **Sampling Rate** | 1 MHz or 200 kHz |
 | **Gain** | 10 dB |
 
 ---
