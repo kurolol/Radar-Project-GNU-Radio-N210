@@ -1,0 +1,36 @@
+﻿  Source.cpp
+c:\users\juani\desktop\sdrtest\test\test\wavetable.hpp(29): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\juani\desktop\sdrtest\test\test\wavetable.hpp(32): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\juani\desktop\sdrtest\test\test\wavetable.hpp(36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+Source.cpp(458): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(539): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(542): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(545): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(170): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  Source.cpp(539): note: see reference to function template instantiation 'void recv_to_file<std::complex<double>>(uhd::usrp::multi_usrp::sptr,const std::string &,const std::string &,const std::string &,size_t,int,double,std::vector<size_t,std::allocator<_Ty>>)' being compiled
+          with
+          [
+              _Ty=size_t
+          ]
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(54): note: see reference to class template instantiation 'boost::arg<9>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(53): note: see reference to class template instantiation 'boost::arg<8>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(52): note: see reference to class template instantiation 'boost::arg<7>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(51): note: see reference to class template instantiation 'boost::arg<6>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(50): note: see reference to class template instantiation 'boost::arg<5>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(49): note: see reference to class template instantiation 'boost::arg<4>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(48): note: see reference to class template instantiation 'boost::arg<3>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(47): note: see reference to class template instantiation 'boost::arg<2>' being compiled
+  C:\Program Files\boost\boost_1_68_0\boost/bind/placeholders.hpp(46): note: see reference to class template instantiation 'boost::arg<1>' being compiled
+  test.vcxproj -> C:\Users\juani\Desktop\sdrtest\test\x64\Release\test.exe
