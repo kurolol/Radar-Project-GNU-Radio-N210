@@ -1,4 +1,4 @@
-# 📡 Radar-Project-GNU-Radio-N210
+# 📡 Radar-Tracking-Project-N210
 
 This project implements **FMCW radar tracking** using the **USRP N210** and **GNU Radio**. It includes scripts for **signal generation, processing, and visualization** using **GNU Radio and MATLAB**.
 
