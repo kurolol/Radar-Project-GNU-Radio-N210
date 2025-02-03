@@ -56,7 +56,7 @@ MATLAB scripts for signal analysis and visualization.
 
 ## 📊 Testing Parameters
 
-Sine Wave Testing Parameters
+USRP Parameters for Testing
 
 | Parameter       | Value  |
 |---------------|--------|
