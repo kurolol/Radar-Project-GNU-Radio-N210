@@ -10,7 +10,7 @@ This repository contains code and assets for an **FMCW Radar System** using:
 
 - **USRP N210 with SBX daughterboard**
 - **GNU Radio 3.7.13.4 on Ubuntu 18.04**
-- **UHD v3.15 API** for interfacing with USRP**
+- **UHD v3.15 API** for interfacing with USRP
 - **MATLAB scripts** for additional signal analysis
 
 ---
