@@ -18,7 +18,7 @@ This repository contains code and assets for an **FMCW Radar System** using:
 
 ## 📂 Repository Structure
 
-### 🔹 Custom Code UHD/ [Totaly depricated]
+### 🔹 [Totaly depricated] Custom Code UHD/ 
 Custom UHD scripts made in C++ to transmit IQ samples from .dat file and receive into a file. - Does not work
 
 ```
