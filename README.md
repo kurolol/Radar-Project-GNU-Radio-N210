@@ -11,7 +11,7 @@ This repository contains code and assets for an **FMCW Radar System** using:
 - **USRP N210 with SBX daughterboard**
 - **GNU Radio 3.10.10.0 and Python 3.11.9** [Radioconda fork on Windows 11]
 - **MATLAB scripts** for additional signal analysis and Signal creation
-- [OLD] GNU Radio 3.7.13.4 on Ubuntu 18.04
+- [OLD GNURadio Flowgraphs] GNU Radio 3.7.13.4 on Ubuntu 18.04
 - [Kinda irrelavent] UHD v3.15 API for interfacing with USRP
 
 ---
@@ -34,6 +34,7 @@ GNU Radio Companion (`.grc`) files for signal transmission and processing.
 ├── File_playback.grc        # Mostly used to just playback the .dat file [No DSP techniques in here]
 ├── File_to_USRP.grc         # Used to transmit IQ data from .dat file to the USRP, can also save the recieve signal to a .dat file **[mostly used for FMCW testing]**
 ├── SineWave_file_dsp.grc    # Signal processing .dat file from sine wave testing to get the velocity
+├── SineWave_test.grc        # Transmits a sine wave to the USRP and can save the receive samples in a .dat file **[Used to run sine wave tests]**
 ```
 
 ### 🔹 MATLAB/
