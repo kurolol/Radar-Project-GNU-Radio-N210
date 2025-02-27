@@ -54,7 +54,7 @@ MATLAB scripts for signal analysis and visualization.
 |---------------|--------|
 | **TX & RX Freq.** | 2.4 GHz |
 | **Sampling Rate** | 1 MHz or 200 kHz |
-| **Gain** | 10 dB |
+| **Gain** | 10-20 dB |
 
 **FMCW Testing** [Still changing]
 | Parameter       | Value  |
@@ -64,5 +64,5 @@ MATLAB scripts for signal analysis and visualization.
 | **Sweep Bandwidth** | 12.5 MHz |
 | **Sweep Time** | 1 ms |
 | **Waveform Type** | Sawtooth |
-| **Gain** | 10 dB |
+| **Gain** | 10-20 dB |
 
