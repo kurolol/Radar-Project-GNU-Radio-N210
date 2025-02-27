@@ -1,6 +1,6 @@
 # 📡 Radar-Tracking-Project-N210
 
-This project implements **FMCW radar tracking** using the **USRP N210** and **GNU Radio**. It includes scripts for **signal generation, processing, and visualization** using **GNU Radio and MATLAB**.
+Stuff that mostly works for the development of the **FMCW Tracking Radar Senior Design Project** using the **USRP N210** and **GNU Radio**. It includes scripts for **signal generation, processing, and visualization** as well as **USRP testing workflow graphs** all for **GNU Radio and MATLAB**.
 
 ---
 
@@ -9,9 +9,10 @@ This project implements **FMCW radar tracking** using the **USRP N210** and **GN
 This repository contains code and assets for an **FMCW Radar System** using:
 
 - **USRP N210 with SBX daughterboard**
-- **GNU Radio 3.7.13.4 on Ubuntu 18.04**
-- **UHD v3.15 API** for interfacing with USRP
-- **MATLAB scripts** for additional signal analysis
+- **GNU Radio 3.10.10.0 and Python 3.11.9** [Radioconda fork on Windows 11]
+- **MATLAB scripts** for additional signal analysis and Signal creation
+- [OLD] GNU Radio 3.7.13.4 on Ubuntu 18.04
+- [Kinda irrelavent] UHD v3.15 API for interfacing with USRP
 
 ---
 
@@ -26,8 +27,8 @@ This repository contains code and assets for an **FMCW Radar System** using:
 
 ## 📂 Repository Structure
 
-### 🔹 Custom Code UHD/
-Custom UHD scripts for interfacing with the USRP.
+### 🔹 Custom Code UHD/ [Totaly depricated]
+Custom UHD scripts made in C++ to transmit IQ samples from .dat file and receive into a file. - Does not work
 
 ```
 ├── test/          # Contains test scripts and configurations
@@ -57,17 +58,20 @@ MATLAB scripts for signal analysis and visualization.
 ## 📊 Testing Parameters
 
 USRP Parameters for Testing
-
+**Sine Wave Testing**
 | Parameter       | Value  |
 |---------------|--------|
 | **TX & RX Freq.** | 2.4 GHz |
 | **Sampling Rate** | 1 MHz or 200 kHz |
 | **Gain** | 10 dB |
 
----
-
-## 📈 System Status
-
-🔹 **Current Testing:** We are currently transmitting only a sine wave to ensure correct velocity readings.  
-🔹 **Next Steps:** Test results will be added soon, and we will move on to FMCW.
+**FMCW Testing** [Still changing]
+| Parameter       | Value  |
+|---------------|--------|
+| **TX & RX Freq.** | 2.4 GHz |
+| **Sampling Rate** | 25 MHz |
+| **Sweep Bandwidth** | 12.5 MHz |
+| **Sweep Time** | 1 ms |
+| **Waveform Type** | Sawtooth |
+| **Gain** | 10 dB |
 
