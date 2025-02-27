@@ -16,15 +16,6 @@ This repository contains code and assets for an **FMCW Radar System** using:
 
 ---
 
-## 📌 Features
-
-- **FMCW Signal Generation**
-- **Signal Reception & Processing**
-- **IQ Data Analysis**
-- **Custom UHD Script** for USRP to transmit and record samples (currently not fully functional)
-
----
-
 ## 📂 Repository Structure
 
 ### 🔹 Custom Code UHD/ [Totaly depricated]
@@ -40,9 +31,9 @@ Custom UHD scripts made in C++ to transmit IQ samples from .dat file and receive
 GNU Radio Companion (`.grc`) files for signal transmission and processing.
 
 ```
-├── FMCW_test.grc         # FMCW signal test flowgraph (transmit FMCW with USRP)
-├── Sinewave_test.grc     # Basic sinewave test flowgraph (transmit sine wave with USRP)
-├── file_dsp.grc          # .dat file signal processing flowgraph (replay the .dat file in GNU Radio)
+├── File_playback.grc        # Mostly used to just playback the .dat file [No DSP techniques in here]
+├── File_to_USRP.grc         # Used to transmit IQ data from .dat file to the USRP, can also save the recieve signal to a .dat file **[mostly used for FMCW testing]**
+├── SineWave_file_dsp.grc    # Signal processing .dat file from sine wave testing to get the velocity
 ```
 
 ### 🔹 MATLAB/
